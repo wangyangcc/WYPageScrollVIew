@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AQg-GY-bYN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAr-Hw-zpS">
+                                <rect key="frame" x="0.0" y="142" width="320" height="30"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jVt-g5-eNm"/>
+                                </constraints>
+                                <state key="normal" title="no pagingEnabled scrollview">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="noPagingEnabledTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rwR-Wp-rOF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtD-gn-y0n">
+                                <rect key="frame" x="0.0" y="180" width="320" height="30"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="JxE-wq-P9d"/>
+                                </constraints>
+                                <state key="normal" title="pagingEnabled small scrollview">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pagingEnabledSmallTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ld8-nO-2iP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yex-RJ-9dQ">
+                                <rect key="frame" x="0.0" y="218" width="320" height="30"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XVg-fm-4W1"/>
+                                </constraints>
+                                <state key="normal" title="pagingEnabled big scrollview">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pageingEnabledBigTaped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FZm-xH-nDf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yex-RJ-9dQ" firstAttribute="top" secondItem="mtD-gn-y0n" secondAttribute="bottom" constant="8" id="0hf-BE-GD2"/>
+                            <constraint firstItem="mtD-gn-y0n" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="7rO-vH-7dJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yex-RJ-9dQ" secondAttribute="trailing" constant="-16" id="Tyz-8q-hYE"/>
+                            <constraint firstItem="Yex-RJ-9dQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="YJy-qY-ajI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RAr-Hw-zpS" secondAttribute="trailing" constant="-16" id="ZTs-0x-fbt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mtD-gn-y0n" secondAttribute="trailing" constant="-16" id="f1i-SD-CDL"/>
+                            <constraint firstItem="RAr-Hw-zpS" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="122" id="ngE-ML-zLf"/>
+                            <constraint firstItem="RAr-Hw-zpS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="pwY-Pg-OPS"/>
+                            <constraint firstItem="mtD-gn-y0n" firstAttribute="top" secondItem="RAr-Hw-zpS" secondAttribute="bottom" constant="8" id="yBc-I8-7Fg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="of3-rL-gZJ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="388"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XTq-at-KN2">
+            <objects>
+                <navigationController id="AQg-GY-bYN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wdB-sT-r9c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="QaI-qG-Br8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aiy-K9-Xr6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-250" y="404"/>
+        </scene>
+    </scenes>
+</document>

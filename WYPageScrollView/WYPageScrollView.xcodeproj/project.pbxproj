@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0BFBD121BABAEB2008EBBD8 /* WYPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BFBD111BABAEB2008EBBD8 /* WYPagingView.m */; };
+		E0BFBD161BABB909008EBBD8 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BFBD151BABB909008EBBD8 /* ThreeViewController.m */; };
+		E0EEEE571BAAA634007BFA37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE561BAAA634007BFA37 /* main.m */; };
+		E0EEEE5A1BAAA634007BFA37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE591BAAA634007BFA37 /* AppDelegate.m */; };
+		E0EEEE5D1BAAA634007BFA37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE5C1BAAA634007BFA37 /* ViewController.m */; };
+		E0EEEE601BAAA634007BFA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EEEE5E1BAAA634007BFA37 /* Main.storyboard */; };
+		E0EEEE621BAAA634007BFA37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EEEE611BAAA634007BFA37 /* Images.xcassets */; };
+		E0EEEE651BAAA634007BFA37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0EEEE631BAAA634007BFA37 /* LaunchScreen.xib */; };
+		E0EEEE711BAAA634007BFA37 /* WYPageScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE701BAAA634007BFA37 /* WYPageScrollViewTests.m */; };
+		E0EEEE811BAAA84D007BFA37 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE801BAAA84D007BFA37 /* OneViewController.m */; };
+		E0EEEE8C1BAAAA04007BFA37 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE841BAAAA04007BFA37 /* ALView+PureLayout.m */; };
+		E0EEEE8D1BAAAA04007BFA37 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE861BAAAA04007BFA37 /* NSArray+PureLayout.m */; };
+		E0EEEE8E1BAAAA04007BFA37 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE881BAAAA04007BFA37 /* NSLayoutConstraint+PureLayout.m */; };
+		E0EEEE911BAABBCF007BFA37 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEEE901BAABBCF007BFA37 /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0EEEE6B1BAAA634007BFA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0EEEE491BAAA634007BFA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EEEE501BAAA634007BFA37;
+			remoteInfo = WYPageScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0BFBD101BABAEB2008EBBD8 /* WYPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPagingView.h; sourceTree = "<group>"; };
+		E0BFBD111BABAEB2008EBBD8 /* WYPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPagingView.m; sourceTree = "<group>"; };
+		E0BFBD131BABAF4E008EBBD8 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		E0BFBD141BABB909008EBBD8 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		E0BFBD151BABB909008EBBD8 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		E0EEEE511BAAA634007BFA37 /* WYPageScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPageScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EEEE551BAAA634007BFA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EEEE561BAAA634007BFA37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0EEEE581BAAA634007BFA37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0EEEE591BAAA634007BFA37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0EEEE5B1BAAA634007BFA37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0EEEE5C1BAAA634007BFA37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0EEEE5F1BAAA634007BFA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0EEEE611BAAA634007BFA37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E0EEEE641BAAA634007BFA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E0EEEE6A1BAAA634007BFA37 /* WYPageScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPageScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EEEE6F1BAAA634007BFA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EEEE701BAAA634007BFA37 /* WYPageScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYPageScrollViewTests.m; sourceTree = "<group>"; };
+		E0EEEE7F1BAAA84D007BFA37 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		E0EEEE801BAAA84D007BFA37 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		E0EEEE831BAAAA04007BFA37 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		E0EEEE841BAAAA04007BFA37 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		E0EEEE851BAAAA04007BFA37 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		E0EEEE861BAAAA04007BFA37 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		E0EEEE871BAAAA04007BFA37 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		E0EEEE881BAAAA04007BFA37 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		E0EEEE891BAAAA04007BFA37 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		E0EEEE8A1BAAAA04007BFA37 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		E0EEEE8B1BAAAA04007BFA37 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		E0EEEE8F1BAABBCF007BFA37 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		E0EEEE901BAABBCF007BFA37 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0EEEE4E1BAAA634007BFA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0EEEE671BAAA634007BFA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0EEEE481BAAA634007BFA37 = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE821BAAAA04007BFA37 /* PureLayout */,
+				E0EEEE7D1BAAA813007BFA37 /* ScrollViews */,
+				E0EEEE7E1BAAA813007BFA37 /* ViewControllers */,
+				E0EEEE531BAAA634007BFA37 /* WYPageScrollView */,
+				E0EEEE6D1BAAA634007BFA37 /* WYPageScrollViewTests */,
+				E0EEEE521BAAA634007BFA37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0EEEE521BAAA634007BFA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE511BAAA634007BFA37 /* WYPageScrollView.app */,
+				E0EEEE6A1BAAA634007BFA37 /* WYPageScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0EEEE531BAAA634007BFA37 /* WYPageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE581BAAA634007BFA37 /* AppDelegate.h */,
+				E0EEEE591BAAA634007BFA37 /* AppDelegate.m */,
+				E0EEEE5B1BAAA634007BFA37 /* ViewController.h */,
+				E0EEEE5C1BAAA634007BFA37 /* ViewController.m */,
+				E0EEEE5E1BAAA634007BFA37 /* Main.storyboard */,
+				E0EEEE611BAAA634007BFA37 /* Images.xcassets */,
+				E0EEEE631BAAA634007BFA37 /* LaunchScreen.xib */,
+				E0BFBD131BABAF4E008EBBD8 /* CommonDefine.h */,
+				E0EEEE541BAAA634007BFA37 /* Supporting Files */,
+			);
+			path = WYPageScrollView;
+			sourceTree = "<group>";
+		};
+		E0EEEE541BAAA634007BFA37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE551BAAA634007BFA37 /* Info.plist */,
+				E0EEEE561BAAA634007BFA37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0EEEE6D1BAAA634007BFA37 /* WYPageScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE701BAAA634007BFA37 /* WYPageScrollViewTests.m */,
+				E0EEEE6E1BAAA634007BFA37 /* Supporting Files */,
+			);
+			path = WYPageScrollViewTests;
+			sourceTree = "<group>";
+		};
+		E0EEEE6E1BAAA634007BFA37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE6F1BAAA634007BFA37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0EEEE7D1BAAA813007BFA37 /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				E0BFBD101BABAEB2008EBBD8 /* WYPagingView.h */,
+				E0BFBD111BABAEB2008EBBD8 /* WYPagingView.m */,
+			);
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		E0EEEE7E1BAAA813007BFA37 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE7F1BAAA84D007BFA37 /* OneViewController.h */,
+				E0EEEE801BAAA84D007BFA37 /* OneViewController.m */,
+				E0EEEE8F1BAABBCF007BFA37 /* TwoViewController.h */,
+				E0EEEE901BAABBCF007BFA37 /* TwoViewController.m */,
+				E0BFBD141BABB909008EBBD8 /* ThreeViewController.h */,
+				E0BFBD151BABB909008EBBD8 /* ThreeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E0EEEE821BAAAA04007BFA37 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E0EEEE831BAAAA04007BFA37 /* ALView+PureLayout.h */,
+				E0EEEE841BAAAA04007BFA37 /* ALView+PureLayout.m */,
+				E0EEEE851BAAAA04007BFA37 /* NSArray+PureLayout.h */,
+				E0EEEE861BAAAA04007BFA37 /* NSArray+PureLayout.m */,
+				E0EEEE871BAAAA04007BFA37 /* NSLayoutConstraint+PureLayout.h */,
+				E0EEEE881BAAAA04007BFA37 /* NSLayoutConstraint+PureLayout.m */,
+				E0EEEE891BAAAA04007BFA37 /* PureLayout+Internal.h */,
+				E0EEEE8A1BAAAA04007BFA37 /* PureLayout.h */,
+				E0EEEE8B1BAAAA04007BFA37 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0EEEE501BAAA634007BFA37 /* WYPageScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0EEEE741BAAA634007BFA37 /* Build configuration list for PBXNativeTarget "WYPageScrollView" */;
+			buildPhases = (
+				E0EEEE4D1BAAA634007BFA37 /* Sources */,
+				E0EEEE4E1BAAA634007BFA37 /* Frameworks */,
+				E0EEEE4F1BAAA634007BFA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPageScrollView;
+			productName = WYPageScrollView;
+			productReference = E0EEEE511BAAA634007BFA37 /* WYPageScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0EEEE691BAAA634007BFA37 /* WYPageScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0EEEE771BAAA634007BFA37 /* Build configuration list for PBXNativeTarget "WYPageScrollViewTests" */;
+			buildPhases = (
+				E0EEEE661BAAA634007BFA37 /* Sources */,
+				E0EEEE671BAAA634007BFA37 /* Frameworks */,
+				E0EEEE681BAAA634007BFA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0EEEE6C1BAAA634007BFA37 /* PBXTargetDependency */,
+			);
+			name = WYPageScrollViewTests;
+			productName = WYPageScrollViewTests;
+			productReference = E0EEEE6A1BAAA634007BFA37 /* WYPageScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0EEEE491BAAA634007BFA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "wang yangyang";
+				TargetAttributes = {
+					E0EEEE501BAAA634007BFA37 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E0EEEE691BAAA634007BFA37 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E0EEEE501BAAA634007BFA37;
+					};
+				};
+			};
+			buildConfigurationList = E0EEEE4C1BAAA634007BFA37 /* Build configuration list for PBXProject "WYPageScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0EEEE481BAAA634007BFA37;
+			productRefGroup = E0EEEE521BAAA634007BFA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0EEEE501BAAA634007BFA37 /* WYPageScrollView */,
+				E0EEEE691BAAA634007BFA37 /* WYPageScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0EEEE4F1BAAA634007BFA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EEEE601BAAA634007BFA37 /* Main.storyboard in Resources */,
+				E0EEEE651BAAA634007BFA37 /* LaunchScreen.xib in Resources */,
+				E0EEEE621BAAA634007BFA37 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0EEEE681BAAA634007BFA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0EEEE4D1BAAA634007BFA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EEEE8E1BAAAA04007BFA37 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				E0EEEE5D1BAAA634007BFA37 /* ViewController.m in Sources */,
+				E0EEEE5A1BAAA634007BFA37 /* AppDelegate.m in Sources */,
+				E0EEEE571BAAA634007BFA37 /* main.m in Sources */,
+				E0EEEE8C1BAAAA04007BFA37 /* ALView+PureLayout.m in Sources */,
+				E0EEEE8D1BAAAA04007BFA37 /* NSArray+PureLayout.m in Sources */,
+				E0BFBD121BABAEB2008EBBD8 /* WYPagingView.m in Sources */,
+				E0EEEE811BAAA84D007BFA37 /* OneViewController.m in Sources */,
+				E0EEEE911BAABBCF007BFA37 /* TwoViewController.m in Sources */,
+				E0BFBD161BABB909008EBBD8 /* ThreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0EEEE661BAAA634007BFA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EEEE711BAAA634007BFA37 /* WYPageScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0EEEE6C1BAAA634007BFA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0EEEE501BAAA634007BFA37 /* WYPageScrollView */;
+			targetProxy = E0EEEE6B1BAAA634007BFA37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0EEEE5E1BAAA634007BFA37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0EEEE5F1BAAA634007BFA37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0EEEE631BAAA634007BFA37 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0EEEE641BAAA634007BFA37 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0EEEE721BAAA634007BFA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0EEEE731BAAA634007BFA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0EEEE751BAAA634007BFA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPageScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0EEEE761BAAA634007BFA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPageScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0EEEE781BAAA634007BFA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WYPageScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPageScrollView.app/WYPageScrollView";
+			};
+			name = Debug;
+		};
+		E0EEEE791BAAA634007BFA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WYPageScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYPageScrollView.app/WYPageScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0EEEE4C1BAAA634007BFA37 /* Build configuration list for PBXProject "WYPageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EEEE721BAAA634007BFA37 /* Debug */,
+				E0EEEE731BAAA634007BFA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0EEEE741BAAA634007BFA37 /* Build configuration list for PBXNativeTarget "WYPageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EEEE751BAAA634007BFA37 /* Debug */,
+				E0EEEE761BAAA634007BFA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0EEEE771BAAA634007BFA37 /* Build configuration list for PBXNativeTarget "WYPageScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EEEE781BAAA634007BFA37 /* Debug */,
+				E0EEEE791BAAA634007BFA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0EEEE491BAAA634007BFA37 /* Project object */;
+}
