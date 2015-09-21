@@ -6,8 +6,8 @@ scrollview 自定义整页滚动宽度
 ### 1、实现 UIScrollViewDelegate 协议，重写`scrollViewWillEndDragging:withVelocity:targetContentOffset:`方法
 
 首先要保证`scrollView`的`pagingEnabled`为`NO`，示例如下：
-<pre><code>
-- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
+
+<pre><code>- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
 {
     //计算在scrollView在停止的时候，应该滚动到的位置
     CGFloat kMaxIndex = 6; //最大的页数
@@ -29,8 +29,7 @@ scrollview 自定义整页滚动宽度
 
 此外，需要重写scrollView父类的`hitTest:withEvent:`方法，保证在滑动scrollView外部区域的时候，scrollView也能响应事件，代码如下
 
-<pre><code>
-- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+<pre><code>- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     if ([self pointInside:point withEvent:event]) {
         if ([[self subviews] count] > 0) {
             //force return of first child, if exists
@@ -46,8 +45,7 @@ scrollview 自定义整页滚动宽度
 
 设置`scrollView`的`pagingEnabled`为`YES`，关键代码如下
 
-<pre><code>
-self.co_scrollView.frame = CGRectMake(0, MMNavigationBarHeight, self.pagingWidth, ScreenHeight - MMNavigationBarHeight);
+<pre><code>self.co_scrollView.frame = CGRectMake(0, MMNavigationBarHeight, self.pagingWidth, ScreenHeight - MMNavigationBarHeight);
 //添加每页内容
 for (NSInteger index = 0; index < 6; index ++) {
     UIView *indexView = [UIView new];
@@ -56,5 +54,4 @@ for (NSInteger index = 0; index < 6; index ++) {
      [self.co_scrollView addSubview:indexView];
 }
 //end
-[self.co_scrollView setContentSize:CGSizeMake(self.pagingWidth*6, CGRectGetHeight(self.co_scrollView.frame) - 20)];
-</pre></code>
+[self.co_scrollView setContentSize:CGSizeMake(self.pagingWidth*6, CGRectGetHeight(self.co_scrollView.frame) - 20)];</pre></code>
